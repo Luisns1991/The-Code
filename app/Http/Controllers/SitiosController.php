@@ -14,7 +14,7 @@ class SitiosController extends Controller
      */
     public function index()
     {
-        return view('sitios.index');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class SitiosController extends Controller
      */
     public function create()
     {
-        return view('sitios.create');
+        //
     }
 
     /**
@@ -57,7 +57,7 @@ class SitiosController extends Controller
      */
     public function edit(Sitios $sitios)
     {
-        return view('sitios.edit');
+        //
     }
 
     /**

@@ -18,3 +18,4 @@ class Rutas extends Model
         return $this->belongsToMany('App\Sitios', 'rutas_sitios_llegada', 'sitio_llegada', 'id', 'sitios');
     }
 }
+

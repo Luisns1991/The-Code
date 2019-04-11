@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class Rutas extends Migration
+class CreateAsientosTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,12 @@ class Rutas extends Migration
      */
     public function up()
     {
-        Schema::create('rutas', function (Blueprint $table) {
+        Schema::create('asientos', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignedBigInteger('sitio_salida_id');
-            $table->unsignedBigInteger('sitio_llegada_id');
-            $table->decimal('kilometros');
-            $table->boolean('hora_aprox_llegada');
+            $table->string('nombre', 50);
+            $table->longText('descripcion');
+            $table->decimal('precio');
+            $table->boolean('activo');
         });
     }
 
@@ -29,6 +29,7 @@ class Rutas extends Migration
      */
     public function down()
     {
-        Schema::drop('rutas');
+        Schema::dropIfExists('asientos');
     }
 }
+

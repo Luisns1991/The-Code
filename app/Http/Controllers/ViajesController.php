@@ -14,7 +14,7 @@ class ViajesController extends Controller
      */
     public function index()
     {
-        return view('viajes.index');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class ViajesController extends Controller
      */
     public function create()
     {
-        return view('viajes.create');
+        //
     }
 
     /**
@@ -57,7 +57,7 @@ class ViajesController extends Controller
      */
     public function edit(Viajes $viajes)
     {
-        return view('viajes.edit');
+        //
     }
 
     /**

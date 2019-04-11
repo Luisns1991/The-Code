@@ -14,7 +14,7 @@ class RutasController extends Controller
      */
     public function index()
     {
-        return view('rutas.index');
+        //
     }
 
     /**
@@ -24,7 +24,7 @@ class RutasController extends Controller
      */
     public function create()
     {
-        return view('rutas.create');
+        //
     }
 
     /**
@@ -35,11 +35,7 @@ class RutasController extends Controller
      */
     public function store(Request $request)
     {
-        $datosRutas = request()->all();
-
-        $datosRutas = request()->except('_token');
-        
-        return response()->json($datosRutas);
+        //
     }
 
     /**
@@ -61,7 +57,7 @@ class RutasController extends Controller
      */
     public function edit(Rutas $rutas)
     {
-        return view('rutas.edit');
+        //
     }
 
     /**

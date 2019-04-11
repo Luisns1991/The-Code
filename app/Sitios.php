@@ -8,3 +8,4 @@ class Sitios extends Model
 {
     protected  $table = 'Sitios';
 }
+

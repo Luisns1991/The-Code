@@ -14,8 +14,8 @@ class AsientosController extends Controller
      */
     public function index()
     {
-        $datos['asientos']=Asientos::paginate(5);
-        return view('asientos.index', $datos);
+        $datos['asientos'] = Asientos::paginate(5);
+        return view('asientos.index' );
     }
 
     /**
