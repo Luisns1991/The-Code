@@ -10686,12 +10686,13 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 
 .btn.btn-link.dropdown-toggle,
 .navbar .navbar-nav>a.btn.btn-link.dropdown-toggle {
-  color: #9A9A9A;
+  color: rgb(248, 244, 244);
 }
 
 .btn.dropdown-toggle:after,
 .navbar .navbar-nav>a.btn.dropdown-toggle:after {
   margin-left: 30px !important;
+  color: rgb(248, 244, 244);
 }
 
 .btn-primary {
@@ -15680,6 +15681,7 @@ table.tablesorter thead tr .headerSortDown {
   -o-transition: all 150ms ease 0s;
   -ms-transition: all 150ms ease 0s;
   transition: all 150ms ease 0s;
+  color: white;
 }
 
 .dropdown-toggle[aria-expanded="true"]:after,

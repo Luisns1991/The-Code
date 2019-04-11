@@ -8,7 +8,7 @@ class Rutas extends Model
 {
     protected $table = 'rutas';
 
-    public function sitio_salida() 
+    public function sitio_salida()
     {
         return $this->belongsToMany('App\Sitios', 'rutas_sitios_salida', 'sitio_salida', 'id', 'sitios');
     }
